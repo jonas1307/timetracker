@@ -1,0 +1,127 @@
+[
+    {
+        "color": "ffffff",
+        "name": "[Not Set]",
+        "id": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+        "color": "ad00ff",
+        "name": "Analyze Requisitions",
+        "id": "a77c5578-4c10-4abc-b8ec-4cad76acf348"
+    },
+    {
+        "color": "ff00c2",
+        "name": "Architecture",
+        "id": "3a66d786-7f4f-41be-a406-19f2fe3002fe"
+    },
+    {
+        "color": "00ffa3",
+        "name": "Branches Gathering",
+        "id": "bb643e6c-af5e-4416-af9b-79a0f2b9619a"
+    },
+    {
+        "color": "0029ff",
+        "name": "Build/Deploy/Merge",
+        "id": "cff7fd8c-8215-4681-85fc-5bb0f9821add"
+    },
+    {
+        "color": "ff0047",
+        "name": "Ceremonies",
+        "id": "5d5b16e1-d329-44a5-b6a9-1d89a508d8e3"
+    },
+    {
+        "color": "f5ff00",
+        "name": "Code Review",
+        "id": "459f7b67-3c17-43e0-a7a7-fa2a8b1f20e9"
+    },
+    {
+        "color": "00ffad",
+        "name": "Configuration",
+        "id": "bf4c0326-aaa3-4203-88ad-6fa11e9faaa1"
+    },
+    {
+        "color": "5cff00",
+        "name": "DBA",
+        "id": "f7a20281-2126-4c50-a2cf-0be49223c2c4"
+    },
+    {
+        "color": "ec654c",
+        "name": "Deployment",
+        "id": "37cd2876-a568-4952-89cb-30a5faa5e9c3"
+    },
+    {
+        "color": "3300ff",
+        "name": "Design",
+        "id": "318f86d9-e454-4626-aa95-97a94e5b7b13"
+    },
+    {
+        "color": "46aee8",
+        "name": "Development",
+        "id": "ef90d817-3405-47c4-b553-9a3e4d07520a"
+    },
+    {
+        "color": "a2a4a7",
+        "name": "Documentation",
+        "id": "4110b7c9-6250-4032-be8a-6cd96975638f"
+    },
+    {
+        "color": "e000ff",
+        "name": "Follow",
+        "id": "47577718-31a2-45dc-ad37-2fa1bd16e9de"
+    },
+    {
+        "color": "ff7a00",
+        "name": "Management",
+        "id": "0878552e-66c9-4bdd-aabd-f54d837bcd48"
+    },
+    {
+        "color": "29ff00",
+        "name": "Meeting",
+        "id": "c808cef5-bf54-4749-bd69-2fefa2608113"
+    },
+    {
+        "color": "2ab186",
+        "name": "Onboarding",
+        "id": "1a40aafd-aeaf-449b-b97a-2da480a3f7ee"
+    },
+    {
+        "color": "00ebff",
+        "name": "Organizational Policies",
+        "id": "e157b133-d9ab-4852-a510-bec50deeb10b"
+    },
+    {
+        "color": "c200ff",
+        "name": "PO",
+        "id": "5cfa3a91-a8d3-4f2f-b911-3a7fe35218ac"
+    },
+    {
+        "color": "f51515",
+        "name": "Support",
+        "id": "76b9a904-2051-4d4c-8d49-6f06e2b322ea"
+    },
+    {
+        "color": "7000ff",
+        "name": "Technical Analysis",
+        "id": "444462e2-403d-4ef8-8537-9dd92dfd6993"
+    },
+    {
+        "color": "00ff14",
+        "name": "Test - Data Mass",
+        "id": "4a0145ea-1a13-43db-8fd7-3defe81762ae"
+    },
+    {
+        "color": "ff001f",
+        "name": "Test - Develop Automated",
+        "id": "66e5f86c-7bb6-4084-aaef-76728b7d6584"
+    },
+    {
+        "color": "ffd600",
+        "name": "Test - Develop Plan",
+        "id": "b2ab8dae-acd5-48ad-8438-4357388da6af"
+    },
+    {
+        "color": "00ffb8",
+        "name": "Test - Execution",
+        "id": "895e8b3d-ba68-4a57-8894-3dce90df2b0b"
+    }
+]
