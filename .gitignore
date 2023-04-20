@@ -153,3 +153,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+models/stage/*.json
+models/processed/*.json
