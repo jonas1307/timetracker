@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
 const winston = require('winston');
+const { v4: uuidv4 } = require('uuid');
 
 const FILE_EXTENSION = '.json';
 const STAGE_PATH = './models/stage/';
@@ -78,7 +79,7 @@ fs.readdir(STAGE_PATH, (err, files) => {
       }
       
       const oldPath = `${STAGE_PATH}${file}`;
-      const newPath = `${PROCESSED_PATH}${file}`;
+      const newPath = `${PROCESSED_PATH}${uuidv4()}.json`;
       
       fs.rename(oldPath, newPath, function (err) {
           if (err) throw err
