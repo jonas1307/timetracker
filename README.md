@@ -34,9 +34,11 @@ npm start
 - [x] User enters their data in a JSON file
 - [x] JSON files are moved after processing
 - [ ] Activity types are automatically loaded from the API
-- [ ] User ID is automatically loaded from the API
 - [ ] File `models/activities.json` is automatically generated using a seed routine
+- [ ] User ID is automatically loaded from the API
 - [ ] Application can be reseted with a npm routine
+- [ ] Application validates and rejects files with no activities
+- [ ] Application has a task for changing all activities with an workItemId for another workItemId
 
 ## Contributing
 
