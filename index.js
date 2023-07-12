@@ -35,7 +35,7 @@ const reslogger = winston.createLogger({
 let activities = JSON.parse(fs.readFileSync('data/activities.json'));
 
 fs.readdir(STAGE_PATH, (err, files) => {
-    if (!files) throw new Error("No files available");
+    if (!files) throw new Error(`No ${FILE_EXTENSION} files available`);
     
     const targetFiles = files.filter(file => {
         return path.extname(file).toLowerCase() === FILE_EXTENSION;
@@ -79,7 +79,7 @@ fs.readdir(STAGE_PATH, (err, files) => {
       }
       
       const oldPath = `${STAGE_PATH}${file}`;
-      const newPath = `${PROCESSED_PATH}${uuidv4()}.json`;
+      const newPath = `${PROCESSED_PATH}${uuidv4()}${FILE_EXTENSION}`;
       
       fs.rename(oldPath, newPath, function (err) {
           if (err) throw err
