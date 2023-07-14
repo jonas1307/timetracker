@@ -11,6 +11,7 @@ npm i
 ```
 
 Then you must create a `.env` file with the following content
+
 ```
 TIMETRACKER_URL="Your 7pacetimetracker API worklogs's endpoint"
 TIMETRACKER_BEARER_TOKEN="Your user bearer token (you can generate it on the settings menu)"
@@ -30,14 +31,16 @@ npm start
 ```
 
 ## Roadmap
+
 - [x] First API integration, allowing data to be sent
 - [x] User enters their data in a JSON file
 - [x] JSON files are moved after processing
-- [ ] Activity types are automatically loaded from the API
-- [ ] File `models/activities.json` is automatically generated using a seed routine
+- [x] Activity types are automatically loaded from the API
+- [x] File `models/worklog.json` is automatically generated using a seed routine
 - [ ] User ID is automatically loaded from the API
 - [ ] Application can be reseted with a npm routine
-- [ ] Application validates and rejects files with no activities
+- [ ] Application validates activity's fields
+- [ ] Application rejects files without activities
 - [ ] Application has a task for changing all activities with an workItemId for another workItemId
 
 ## Contributing
