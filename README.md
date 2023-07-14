@@ -13,22 +13,19 @@ npm i
 Then you must create a `.env` file with the following content
 
 ```
-TIMETRACKER_URL="Your 7pacetimetracker API worklogs's endpoint"
+TIMETRACKER_URL="Your 7pace timetracker API base URL (without the last slash)"
+TIMETRACKER_API_VERSION="3.2"
 TIMETRACKER_BEARER_TOKEN="Your user bearer token (you can generate it on the settings menu)"
 TIMETRACKER_USER_ID="The user id you wanna track time to, most likely a GUID"
 ```
 
 ## Usage
 
-- Invoke the Activity Types endpoint and place its response on the `data/activities.json` file
-- Create a copy of the `models/activities.json` file on the `models/stage` folder
-- On this file, each Activity Type is a property, which has a list of activities to track
-- Enter your activities where you need them, including date, length (in hours, where 1 equals one hour, 1.5 equals 1:30 and so on), workItemId and an optional comment
-- When you're done, run the command below and you're done.
-
-```bash
-npm start
-```
+- Run the command `npm run seed` for generating `data/activities.json` file with your organization's timetracker activity types and the `models/worklog.json` file
+- Create a copy of the `models/worklog.json` file on the `models/stage` folder
+- On this JSON file, each Activity Type is a key on the main object, and each value is a list of your entries for tracking your work (the first activity has an entry example)
+- Enter your activities on the corresponding activity type, including a required date, required length (in hours, where 1 equals one hour, 1.5 equals 1:30 and so on), required workItemId and an optional comment
+- When you're done, run the command `npm start` to send your data to the API, then you're done
 
 ## Roadmap
 
