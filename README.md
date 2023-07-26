@@ -39,6 +39,11 @@ TIMETRACKER_USER_ID="The user id you wanna track time to, most likely a GUID"
 - [ ] Application validates activity's fields
 - [ ] Application rejects files without activities
 - [ ] Application has a task for changing all activities with an workItemId for another workItemId
+- [ ] Application has a task for changing all activities with an workItemId from one activity type to another
+- [ ] Application supports Replace Token creation and deletion, for storing default `workItemId`s
+- [ ] JSON worklogs supports Replace Tokens, for creating activities with default `workItemId`
+- [ ] Application stores an `id` property on processed worklogs
+- [ ] JSON Worklogs with an `id` property updates the tracked work rather than creates another tracking
 
 ## Contributing
 
