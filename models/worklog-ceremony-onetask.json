@@ -1,0 +1,52 @@
+{
+  "Analyze Requisitions": [
+    {
+      "date": "2023-07-25T09:00:00",
+      "length": 0.5,
+      "workItemId": null,
+      "comment": null
+    },
+    {
+      "date": "2023-07-26T10:00:00",
+      "length": 3.0,
+      "workItemId": null,
+      "comment": null
+    },
+    {
+      "date": "2023-07-25T14:00:00",
+      "length": 4.0,
+      "workItemId": null,
+      "comment": null
+    }
+  ],
+  "Architecture": [],
+  "Branches Gathering": [],
+  "Build/Deploy/Merge": [],
+  "Ceremonies": [
+    {
+      "date": "2023-07-25T09:30:00",
+      "length": 0.5,
+      "workItemId": null,
+      "comment": null
+    }
+  ],
+  "Code Review": [],
+  "Configuration": [],
+  "DBA": [],
+  "Deployment": [],
+  "Design": [],
+  "Development": [],
+  "Documentation": [],
+  "Follow": [],
+  "Management": [],
+  "Meeting": [],
+  "Onboarding": [],
+  "Organizational Policies": [],
+  "PO": [],
+  "Support": [],
+  "Technical Analysis": [],
+  "Test - Data Mass": [],
+  "Test - Develop Automated": [],
+  "Test - Develop Plan": [],
+  "Test - Execution": []
+}
