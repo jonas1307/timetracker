@@ -73,6 +73,9 @@ fs.readdir(STAGE_PATH, (err, files) => {
               reslogger.info(
                 `HTTP ${res.status} | ${JSON.stringify(res.data)}`
               );
+            })
+            .catch((err) => {
+              reslogger.error(err);
             });
         }
       }
