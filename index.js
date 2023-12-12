@@ -57,6 +57,8 @@ fs.readdir(STAGE_PATH, (err, files) => {
 
           reqlogger.info(JSON.stringify(req));
 
+          const worklogUrl = `${process.env.TIMETRACKER_URL}/api/rest/workLogs?api-version=${process.env.TIMETRACKER_API_VERSION}`;
+
           const config = {
             headers: {
               Authorization: `Bearer ${process.env.TIMETRACKER_BEARER_TOKEN}`,
@@ -64,11 +66,7 @@ fs.readdir(STAGE_PATH, (err, files) => {
           };
 
           axios
-            .post(
-              `${process.env.TIMETRACKER_URL}/api/rest/workLogs?api-version=${process.env.TIMETRACKER_API_VERSION}`,
-              req,
-              config
-            )
+            .post(worklogUrl, req, config)
             .then((res) => {
               reslogger.info(
                 `HTTP ${res.status} | ${JSON.stringify(res.data)}`
